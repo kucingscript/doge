@@ -25,7 +25,7 @@ body {
   }
 
   .grid-container img {
-    height: 120px;
+    height: 100px;
   }
 
   .grid-container img:nth-child(9) {
