@@ -17,7 +17,6 @@ body {
   height: 180px;
 }
 
-
 .grid-container img:nth-child(10),
 .grid-container img:nth-child(11),
 .grid-container img:nth-child(12) {
@@ -27,8 +26,7 @@ body {
 @media screen and (max-width: 575px) {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 30px;
-    column-gap: 40px;
+    gap: 25px;
     padding: 20px 0;
   }
 
@@ -41,11 +39,10 @@ body {
   .grid-container img:nth-child(12) {
     display: inline-block;
   }
-
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .grid-container img {
-    height: 210px;
+    height: 240px;
   }
 }
