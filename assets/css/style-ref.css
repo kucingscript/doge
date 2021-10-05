@@ -17,10 +17,6 @@ body {
   height: 180px;
 }
 
-.grid-container img:nth-child(10) {
-  display: none;
-}
-
 @media screen and (max-width: 575px) {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
@@ -32,9 +28,10 @@ body {
     height: 120px;
   }
 
-  .grid-container img:nth-child(10) {
-    display: inline-block;
+  .grid-container img:nth-child(9) {
+    display: none;
   }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

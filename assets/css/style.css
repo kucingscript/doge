@@ -5,7 +5,9 @@ html {
 }
 
 .section1 {
-  background: url(../img/main.png) no-repeat center center;
+  background: url(../img/main.png) no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 100vh;
 }
 
@@ -14,29 +16,6 @@ html {
   font-size: 40px;
   text-align: center;
   font-weight: 500;
-}
-
-.grid-container {
-  box-sizing: border-box;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  place-items: center;
-  gap: 20px;
-}
-
-.grid-container img {
-  height: 180px;
-}
-
-@media screen and (max-width: 575px) {
-  .grid-container {
-    grid-row-gap: 80px;
-  }
-
-  .grid-container img {
-    height: 100px;
-  }
 }
 
 .section2 {
@@ -72,12 +51,6 @@ html {
 
 span {
   background: #fff !important;
-}
-
-@media screen and (max-width: 575px) {
-  span {
-    display: none;
-  }
 }
 
 .ref {
@@ -150,5 +123,11 @@ span {
   .custom-shape-divider-bottom-1633239572 svg {
     width: calc(167% + 1.3px);
     height: 76px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  span {
+    display: none;
   }
 }
