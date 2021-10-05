@@ -1,5 +1,8 @@
-![Doge](https://i.kym-cdn.com/entries/icons/original/000/013/564/doge.jpg)
+![Doge1](https://c.tenor.com/XUX6DFHZ-l0AAAAj/cool-doge-cool-dog.gif)
+![Doge2](https://c.tenor.com/XUX6DFHZ-l0AAAAj/cool-doge-cool-dog.gif)
+![Doge3](https://c.tenor.com/XUX6DFHZ-l0AAAAj/cool-doge-cool-dog.gif)
 
 ```
-Just for fun
+Made just for fun and to learn more about front-end skills
 ```
+

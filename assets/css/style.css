@@ -1,14 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 
-html {
+body {
   font-family: "Poppins", sans-serif;
-}
-
-.section1 {
-  background: url(../img/main.png) no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
 }
 
 .typed {
@@ -18,20 +11,32 @@ html {
   font-weight: 500;
 }
 
+.section1 {
+  background: url(../img/main.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
 .section2 {
-  background: #0b3233;
+  background: #1E3163;
 }
 
 .section3 {
-  background: #38a3a5;
+  background: #0b3233;
 }
 
 .section4 {
-  background: #57CC99;
+  background: #38a3a5;
 }
 
 .section5 {
+  background: #57CC99;
+}
+
+.section6 {
   background: #7aec95;
+
 }
 
 .section-text {
@@ -116,7 +121,7 @@ span {
 }
 
 .custom-shape-divider-bottom-1633239572 .shape-fill {
-  fill: #FFFFFF;
+  fill: #FFE3E3;
 }
 
 @media (max-width: 767px) {
