@@ -9,7 +9,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  height: 100vh;
+  min-height: 100vh;
   place-items: center;
 }
 
@@ -17,19 +17,29 @@ body {
   height: 180px;
 }
 
+
+.grid-container img:nth-child(10),
+.grid-container img:nth-child(11),
+.grid-container img:nth-child(12) {
+  display: none;
+}
+
 @media screen and (max-width: 575px) {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 20px;
+    row-gap: 30px;
     column-gap: 40px;
+    padding: 20px 0;
   }
 
   .grid-container img {
     height: 100px;
   }
 
-  .grid-container img:nth-child(9) {
-    display: none;
+  .grid-container img:nth-child(10),
+  .grid-container img:nth-child(11),
+  .grid-container img:nth-child(12) {
+    display: inline-block;
   }
 
 }
