@@ -1,7 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 
-body {
+:root {
+  --themeWrapper: #012a4a;
+  --s2Color: #023e8a;
+  --s3Color: #0077b6;
+  --s4Color: #0096c7;
+  --s5Color: #00b4d8;
+  --s6Color: #48cae4;
+}
+
+body * {
   font-family: "Poppins", sans-serif;
+  transition: .4s;
 }
 
 .typed {
@@ -18,26 +28,45 @@ body {
   height: 100vh;
 }
 
-.section2 {
-  background: #023e8a;
+.section2 { background: var(--s2Color); }
+
+.section3 { background: var(--s3Color); }
+
+.section4 { background: var(--s4Color); }
+
+.section5 { background: var(--s5Color); }
+
+.section6 { background: var(--s6Color); }
+
+
+.theme-wrapper { background: var(--themeWrapper); }
+
+.theme-dots {
+  display: flex;
+  justify-content: center;
 }
 
-.section3 {
-  background: #0077b6;
+.theme-dot {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: black;
+  margin: 0 8px;
+  transition: .3s;
 }
 
-.section4 {
-  background: #0096c7;
-}
+.theme-dot:hover { transform: scale(1.25); }
 
-.section5 {
-  background: #00b4d8;
-}
+#dot1 { background: #012a4a; }
 
-.section6 {
-  background: #48cae4;
+#dot2 { background: #800f2f; }
 
-}
+#dot3 { background: #88d4ab; }
+
+#dot4 { background: #d55d92; }
+
+#dot5 { background: #6247aa; }
 
 .section-text {
   color: #fff;
@@ -45,27 +74,21 @@ body {
   font-weight: 300;
 }
 
-.section-text h1 {
-  font-size: 30px;
-}
+.section-text h1 { font-size: 30px; }
 
 .section-text p {
   padding: 0 22px;
   font-size: 16px;
 }
 
-span {
-  background: #fff !important;
-}
+span { background: #fff !important; }
 
 .ref {
   color: #fff;
   text-decoration: none;
 }
 
-.ref:hover {
-  border-bottom: 1px solid #fff;
-}
+.ref:hover { border-bottom: 1px solid #fff; }
 
 .btn {
   padding: 15px 30px;
@@ -91,7 +114,7 @@ span {
 
 .btn:hover {
   background-color: #fff;
-  color: #0096C7;
+  color: var(--s4Color);
 }
 
 .custom-shape-divider-bottom-1633239572 {
