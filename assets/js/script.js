@@ -1,5 +1,5 @@
 const options = {
-  strings: ["Doge", "Shiba Inu", "Kabo-chan", "い	ぬ"],
+  strings: ["Doge", "Shiba Inu", "Kabo-chan", "いぬ"],
   startDelay: 1000,
   typeSpeed: 100,
   backSpeed: 100,
@@ -26,7 +26,6 @@ function setTheme(mode) {
   if (mode === "dark-blue") {
     document.getElementById("theme-style").href = "assets/css/style.css"
   }
-
   if (mode === "dark-red") {
     document.getElementById("theme-style").href = "assets/css/theme/dark-red.css"
   }
